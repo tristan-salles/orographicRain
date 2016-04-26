@@ -22,4 +22,4 @@ orographic : fourrier.o smithmodel.o ororainmain.o
 	$(GFORTRAN) $(FFLAGS) -c $(*F).f90
 
 clean :
-	/bin/rm -f *.o orographic
+	/bin/rm -f *.o *.mod orographic
