@@ -9,9 +9,9 @@
 
 ! Compute the precipitation using the linear orographic precipitation model of
 ! Smith and Barstad (2004).
-module smith
+module smithmodel
 
-  use fastfourrier
+  use fourrier
   implicit none
 
   real :: pi
@@ -260,4 +260,4 @@ contains
   end subroutine extrapolate_border
   ! =====================================================================================
 
-end module smith
+end module smithmodel

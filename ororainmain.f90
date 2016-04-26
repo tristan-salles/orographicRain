@@ -11,7 +11,7 @@
 ! Smith and Barstad (2004).
 program orographic_rain
 
-  use smith
+  use smithmodel
   implicit none
 
   integer :: i,j

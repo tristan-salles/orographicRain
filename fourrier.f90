@@ -8,7 +8,7 @@
 !!~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~!!
 
 ! Fast Fourrier Transform.
-module fastfourrier
+module fourrier
 
   public :: fasts
   private :: fft, reals, fftmx, bkdt, realt, istkgt, istkrl
@@ -1016,4 +1016,4 @@ contains
   end subroutine istkrl
   ! =====================================================================================
 
-end module fastfourrier
+end module fourrier
